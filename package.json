@@ -1,0 +1,25 @@
+{
+  "name": "victor",
+  "version": "1.0.0",
+  "description": "Proyecto de video",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx remotion studio",
+    "build": "npx remotion render HelloWorld out/video.mp4",
+    "upgrade": "npx remotion upgrade"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:38477/git/kreatrixmundi-beep/victor"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/cli": "^4.0.469",
+    "@remotion/player": "^4.0.469",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "remotion": "^4.0.469"
+  }
+}
