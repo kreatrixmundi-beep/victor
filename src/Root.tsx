@@ -1,20 +1,18 @@
+import React from "react";
 import { Composition } from "remotion";
-import { HelloWorld } from "./HelloWorld";
+import { CreatrixPromo } from "./CreatrixPromo";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition
-        id="HelloWorld"
-        component={HelloWorld}
-        durationInFrames={150}
+        id="CreatrixPromo"
+        component={CreatrixPromo}
+        durationInFrames={540}
         fps={30}
-        width={1280}
-        height={720}
-        defaultProps={{
-          titleText: "Hello World",
-          titleColor: "#ffffff",
-        }}
+        width={1920}
+        height={1080}
+        defaultProps={{}}
       />
     </>
   );
